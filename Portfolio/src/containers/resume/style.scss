@@ -1,0 +1,62 @@
+.resume {
+    background-color: #0f172a; 
+    min-height: 100vh;
+    padding: 60px 20px;
+    color: #f1f5f9;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .timeline__section {
+    width: 100%;
+  }
+  
+  .timeline__section__header {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--yellow-theme-main-color);
+    text-align: center;
+  }
+  
+  .timeline__section__element {
+    .vertical-timeline-element-title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+  
+  /* Timeline Global Tweaks */
+  .vertical-timeline::before {
+    background: var(--yellow-theme-main-color);
+  }
+  
+  .vertical-timeline-element-content {
+    background-color: #1e293b !important; // dark card
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid var(--yellow-theme-main-color) !important;
+  }
+  
+  .vertical-timeline-element-date {
+    color: #cbd5e1;
+    font-weight: 500;
+  }
+  
