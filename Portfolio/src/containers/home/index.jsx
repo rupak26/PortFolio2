@@ -31,7 +31,7 @@ const Home = () => {
                 >
                     <div className='home__button-wrapper'>
                         <button className='hire-me-btn' onClick={redirectTocontact}>Hire Me</button>
-                        <a href="/Rupak_Biswas.pdf" download className="download-resume-btn">
+                        <a href="/Rupak_Biswas_Resume.pdf" download className="download-resume-btn">
                             Download Resume
                         </a>
                     </div>
