@@ -2,6 +2,15 @@ export const data = {
        heading : "Projects" ,
        list  : [
              {
+                title :"Real Time LeaderBoard" , 
+                link  :"https://github.com/rupak26/Real-time-Leaderboard",
+                Description : `Built a real-time leaderboard backend using Golang, PostgreSQL, and Redis for high-performance ranking
+                               operations.Implemented JWT-based authentication for secure user access and score submissions.Designed RESTful APIs to submit scores, 
+                               fetch global rankings, and retrieve user-specific ranks in real time.Utilized Redis Sorted Sets (ZSET) 
+                               to efficiently manage and update leaderboard scores.Integrated database migration tools to ensure seamless schema management.
+                               Focused on scalability, low-latency updates, and clean code architecture`
+             },
+             {
                 title : "SocialMedia" ,
                 link : 'https://github.com/rupak26/SocialMedia',
                 Description : `Developed a blog web application using Django Rest Framework and PostgreSQL, featuring user
