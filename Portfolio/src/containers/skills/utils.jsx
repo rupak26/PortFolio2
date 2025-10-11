@@ -7,6 +7,10 @@ export const skillsData = [
                 percentage: "90"
             },
             {
+                skillName: "GOlang",
+                percentage: "80"
+            },
+            {
                 skillName: "Django",
                 percentage: "90"
             },
