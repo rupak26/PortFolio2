@@ -201,23 +201,22 @@ $transition-fast: all 0.2s ease;
 // ==========================================
 
 .home__description {
-    margin: 0.5rem auto 0;
-    max-width: 600px;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: $color-text-muted;
-    padding: 0 1rem;
+  margin: 0.5rem auto 0;
+  max-width: 700px;
+  font-size: 1.5rem; // ~24px on desktop
+  line-height: 1.8;
+  color: $color-text-secondary;
+  padding: 0 1rem;
 
-    @media (max-width: 768px) {
-        font-size: 1rem;
-        padding: 0 0.5rem;
-    }
+  @media (max-width: 768px) {
+    font-size: 1.2rem; // ~19px
+    padding: 0 0.5rem;
+  }
 
-    @media (max-width: 480px) {
-        font-size: 0.95rem;
-    }
+  @media (max-width: 480px) {
+    font-size: 1.05rem; // ~17px
+  }
 }
-
 // ==========================================
 // Button Wrapper
 // ==========================================
